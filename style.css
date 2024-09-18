@@ -1,0 +1,47 @@
+
+body {
+    background-color: #93dbf4;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 150px;
+}
+.btn{
+    color: rgb(19, 116, 200);
+    border: 1px solid #93dbf4;
+}
+.btn:hover{
+    background-color: #d5f2fb;
+    outline: none;
+    color: rgb(19, 116, 200);
+}
+.form-label{
+    color: rgb(19, 116, 200);
+}
+.container{
+    padding-top: 50px;
+}
+.footer{
+    background-color: #d5f2fb;
+    color: rgb(19, 116, 200);
+}
+.bootstrap-classes{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(19, 116, 200);
+}
+@media only screen and (min-width: 768px) {
+    .bootstrap-classes{
+       padding: 50px;
+ 
+    }
+    img {
+        width: 140px;
+    }
+}
+
+  
